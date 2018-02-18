@@ -1,0 +1,2 @@
+# Don't want to check in our API keys by mistake
+settings.json
