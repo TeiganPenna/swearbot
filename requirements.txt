@@ -1,2 +1,4 @@
 slackclient >= 0.16
 pypiwin32
+numpy
+matplotlib
