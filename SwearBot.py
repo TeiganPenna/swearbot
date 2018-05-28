@@ -13,7 +13,7 @@ USERS = {}
 with open("settings.json") as fd:
 	settings = json.load(fd)
 	bot_token = settings["bot_token"]
-	response = settings["response"]
+	response = settings["good-response"]
 
 BAD_WORDS = {}
 with open('bad-words.txt') as fd:
