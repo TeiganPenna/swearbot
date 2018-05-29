@@ -35,8 +35,8 @@ def isSwear(text):
 	return False
 
 def isMention(text):
-	words = tokensizeMessage(text0
-	return '@SwearBot' in words
+	words = tokenizeMessage(text0
+	return 'swearbot' in words
 
 def GetUser(code):
 	global USERS
@@ -113,10 +113,10 @@ def ProcessMessage(message):
 		ts = message['ts']
 		if isSwear(text):
 			postApproval(channel, ts)
-		elif isMention(text):
-			staticReply(channel)
 		elif isStatusRequest(text):
 			postStatusUpdate(channel)
+		elif isMention(text):
+			staticReply(channel)
 
 logging.info("bot token is [%s]" % bot_token)
 
