@@ -1,6 +1,6 @@
 {
 	"README": "Copy this file to settings.json and replace with your bot token and response",
 	"bot_token": "xoxb-fooooooo-fooooooo",
-	"good-response": "xxxx"
+	"good-response": "xxxx",
 	"evil-response": "xxxx"
 }
